@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background: #031371;
+    text-align: center;
+}
+#main h1{
+    margin: 100px auto 60px auto;
+   width: 50%;
+    font-size: 50px;
+    background: #010830;
+    color: yellow;
+}
+
+#myImg{
+    height: 250px;
+}
+
+#main button{
+    color: #242424;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(225, 225, 24);
+    cursor: pointer;
+}
+#main button:hover{
+    background: #010830;
+    color: yellow;
+    transition: .5s;
+}

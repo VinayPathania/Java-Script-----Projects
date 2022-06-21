@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(0, 0, 48);
+    height: 100vh;
+    padding: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    place-items: center;
+    font-family: cursive;
+}
+
+.counter-container{
+    color: rgb(192, 183, 183);
+    text-align: center;
+    
+}
+
+.counter{
+    font-size: 60px;
+    margin: 10px 0px;
+    color: orange;
+}
+
+.counter-container span{
+    font-size: 20px;
+}
